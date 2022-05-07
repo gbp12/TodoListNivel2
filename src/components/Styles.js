@@ -21,9 +21,9 @@ export const Opciones = styled.header`
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
-	right: 0;
+	right: 2%;
 	background-color: #2d4c5c;
-	border-radius: 3px;
+	border-radius: 10px;
 	padding: 10px;
 	bottom: 25%;
 	height: 50vh;
