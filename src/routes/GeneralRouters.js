@@ -4,6 +4,10 @@ import { Formulario } from "../components/Formulario"
 import { ToDoList } from "../components/ToDoList"
 import { DoneList } from "../components/DoneList"
 import { useState } from "react"
+
+//Este componente gestiona las rutas de la aplicacion y sus pathings
+//Tambien almacena el estado global de la aplicacion, y hace que los hijos lo hereden para que puedan modificarlo
+
 export const GeneralRouters = () => {
 	const [Estado, setEstado] = useState([
 		{ titulo: "titulo1", tags: ["uno", "dos", "tres"], descripcion: "tengo que hacer algo urgente", completado: false },

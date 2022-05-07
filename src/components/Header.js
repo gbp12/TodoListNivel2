@@ -1,5 +1,6 @@
 import { StyledHeader } from "./Styles"
 
+//Un header simple adecuado con flex
 export const Header = () => {
 	return (
 		<StyledHeader>

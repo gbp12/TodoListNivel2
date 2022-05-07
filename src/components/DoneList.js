@@ -3,6 +3,8 @@ import { StyledList } from "./Styles"
 import { Card } from "./Styles"
 import { Tags } from "./Tags"
 
+//Componente que muestra las tareas por hacer, recibe el estado y su setter para pasarlo al hijo.
+//Este componente tiene un condicional para filtrar las acciones hechas de las que hay que hacer
 export const DoneList = ({ Estado, setEstado }) => {
 	return (
 		<StyledList>

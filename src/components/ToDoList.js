@@ -1,6 +1,9 @@
 import { EstateChanger } from "./EstateChanger"
-import { Card, StyledList, StyledTags } from "./Styles"
+import { Card, StyledList } from "./Styles"
 import { Tags } from "./Tags"
+
+//Componente que muestra las tareas hechas, recibe el estado y su setter para pasarlo al hijo.
+//Este componente tiene un condicional para filtrar las acciones hechas de las que hay que hacer
 export const ToDoList = ({ Estado, setEstado }) => {
 	return (
 		<StyledList>

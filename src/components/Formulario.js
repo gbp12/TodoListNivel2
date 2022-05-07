@@ -1,6 +1,7 @@
 import { Formik } from "formik"
 import { StyledField, StyledButton, StyledForm } from "./Styles"
 
+//Formulario gestionado con formik, iniciamos los valores en strings vacias, damos formato adecuado a las Tags y concatenamos la nueva accion al estado global
 export const Formulario = ({ Estado, setEstado }) => {
 	return (
 		<div>

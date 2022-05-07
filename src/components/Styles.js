@@ -2,6 +2,8 @@ import styled from "styled-components"
 import { Field, Form } from "formik"
 import { Link } from "react-router-dom"
 
+//Estilos gestionados por styled-components
+
 export const StyledHeader = styled.header`
 	display: flex;
 	justify-content: space-around;
